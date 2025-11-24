@@ -1,6 +1,7 @@
 "use client"
 import { Card, CardContent } from "@/components/ui/card"
 import { Cpu, ExternalLink, Linkedin } from "lucide-react"
+import Link from 'next/link'
 
 export default function RISCVWorkshop() {
   return (
@@ -101,6 +102,8 @@ export default function RISCVWorkshop() {
           </div>
           <p className="text-gray-400">Empowering the next generation of processor architects</p>
         </div>
+        <p>this is a change that i am expecting to see</p>
+        <Link prefetch={false} href="/jobs">Jobs</Link>
       </footer>
     </div>
   )

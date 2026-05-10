@@ -2,7 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Cpu, ExternalLink, Linkedin } from "lucide-react"
 
-export default function RISCVWorkshop() {
+export default function RISCVPeerLearning() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
       {/* Header */}
@@ -11,7 +11,7 @@ export default function RISCVWorkshop() {
           <div className="flex items-center gap-3">
             <Cpu className="h-8 w-8 text-blue-600" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">RISC-V Workshop</h1>
+              <h1 className="text-2xl font-bold text-gray-900">RISC-V Peer Learning</h1>
               <p className="text-sm text-gray-600">Survey>>></p>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function RISCVWorkshop() {
                   marginHeight="0"
                   marginWidth="0"
                   className="w-full"
-                  title="RISC-V Workshop Registration Form"
+                  title="RISC-V Peer Learning Form"
                 >
                   Loading registration form...
                 </iframe>
@@ -97,7 +97,7 @@ export default function RISCVWorkshop() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Cpu className="h-6 w-6" />
-            <span className="text-lg font-semibold">RISC-V Workshop</span>
+            <span className="text-lg font-semibold">RISC-V Peer Learning</span>
           </div>
           <p className="text-gray-400">Empowering the next generation of processor architects</p>
         </div>
